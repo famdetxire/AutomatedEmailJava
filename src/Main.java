@@ -9,6 +9,7 @@ public class Main {
         boolean mailSent = smtp.sendRegMail();
 		for (int i = 0; i < 100; i++) {
 			System.out.println(i);
+			System.out.println(100-i);
 		}
 	}
 }

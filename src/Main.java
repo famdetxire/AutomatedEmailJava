@@ -7,5 +7,9 @@ public class Main {
         System.out.println("\n***Sending email, please wait....\n");
         SendEmail smtp = new SendEmail(email,name);
         boolean mailSent = smtp.sendRegMail();
+		for (int i = 0; i < 100; i++) {
+			System.out.println(i);
+			System.out.println(100-i);
+		}
 	}
 }

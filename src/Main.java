@@ -8,5 +8,6 @@ public class Main {
         SendEmail smtp = new SendEmail(email,name);
         boolean mailSent = smtp.sendRegMail();
 		System.out.println("dev");
+
 	}
 }
